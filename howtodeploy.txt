@@ -1,0 +1,5 @@
+1. Add domain to heroku project in Settings -> Domains
+2. Get the DNS target from that
+3. Go to Cloudflare and add DNS target to CNAME for domain and www in DNS -> Records -> DNS Management
+4. Deploy in heroku by connecting to GitHub repo
+5. Turn on dyno resources to make website active
